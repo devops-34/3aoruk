@@ -28,7 +28,7 @@ stages{
              
               steps{
                   sh  "echo $hostname"
-                  sh "echo "test$DB"
+                  sh  "test$DB"
 
 
               }
