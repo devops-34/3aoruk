@@ -40,8 +40,8 @@ stages{
               
               steps{
 
-                  git clone https://github.com/devops-34/24aprul
-                  git branch: 'feature', changelog: false, poll: false, url: 'https://github.com/devops-34/24aprul'
+                 sh 'git clone https://github.com/devops-34/24aprul'
+                  sh 'git branch: 'feature', changelog: false, poll: false, url: 'https://github.com/devops-34/24aprul' '
 
               }  
 }
